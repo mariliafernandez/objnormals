@@ -1,4 +1,4 @@
-# Generate .obj normals
+# objnormals
 
 Generate vertex normal data from wavefront .obj file
 
