@@ -95,3 +95,7 @@ def main():
     parser.add_argument("filepath")
     args = parser.parse_args()
     calculate_normals(Path(args.filepath))
+
+
+if __name__ == "__main__":
+    main()

@@ -7,7 +7,7 @@ name = "objnormals"
 version = "0.1.0"
 description = "Generate vertex normal data from wavefront .obj files"
 readme = "readme.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 license = {text = "MIT"} 
 authors = [
   { name="Marilia M. Fernandez", email="marilia.mfernandez@gmail.com" }
