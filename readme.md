@@ -8,7 +8,7 @@ Generate vertex normal data from wavefront .obj file
 
 ### Run
 ```
-python normal.py filepath
+objnormals filepath
 ```
 
 

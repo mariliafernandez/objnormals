@@ -90,14 +90,8 @@ def write_obj(filename, positions, faces, normals):
     f.write(out)
 
 
-
-
-if __name__ == '__main__':
-  parser = argparse.ArgumentParser()
-  parser.add_argument('filepath')
-
-  args = parser.parse_args()
-
-  obj = Path(args.filepath)
-
-  calculate_normals(obj)
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("filepath")
+    args = parser.parse_args()
+    calculate_normals(Path(args.filepath))
