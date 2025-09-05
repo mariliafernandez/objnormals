@@ -1,1 +1,1 @@
-from .core import calculate_normals
+from objnormals.core import calculate_normals

@@ -97,5 +97,3 @@ def main():
     calculate_normals(Path(args.filepath))
 
 
-if __name__ == "__main__":
-    main()
